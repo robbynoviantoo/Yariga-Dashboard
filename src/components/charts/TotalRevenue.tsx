@@ -1,9 +1,6 @@
 import ReactApexChart from "react-apexcharts";
-
 import { Typography, Box, Stack } from "@pankod/refine-mui";
-
 import { ArrowCircleUpRounded } from "@mui/icons-material";
-
 import { TotalRevenueOptions, TotalRevenueSeries } from "./chart.config";
 
 const TotalRevenue = () => {
@@ -16,6 +13,7 @@ const TotalRevenue = () => {
       display="flex"
       flexDirection="column"
       borderRadius="15px"
+      width="fit-content"
     >
       <Typography fontSize={18} fontWeight={600} color="#11142D">
         Total Revenue
